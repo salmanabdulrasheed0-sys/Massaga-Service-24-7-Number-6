@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massage Service 24/7 - Elite Wellness & Spa</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .tilt-card {
+            transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.5s ease;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+        .tilt-card:hover {
+            transform: translateY(-12px) rotateX(3deg) rotateY(3deg);
+            box-shadow: 0 30px 50px rgba(0,0,0,0.15);
+        }
+        .animate-soft-bounce {
+            animation: softBounce 3s ease-in-out infinite;
+        }
+        @keyframes softBounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans scroll-smooth">
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-md border-b border-stone-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-amber-700 rounded-full flex items-center justify-center text-white shadow-md">
+                    <i class="fas fa-spa text-xl"></i>
+                </div>
+                <span class="text-xl md:text-2xl font-black tracking-widest text-stone-900 uppercase">Massage Service 24/7</span>
+            </div>
+            <nav class="hidden lg:flex space-x-8 font-bold text-sm tracking-wide uppercase text-stone-600">
+                <a href="#hero" class="text-amber-700 border-b-2 border-amber-700 pb-1">Home</a>
+                <a href="#about" class="hover:text-amber-700 transition">About Us</a>
+                <a href="#services" class="hover:text-amber-700 transition">Our Services</a>
+                <a href="#gallery" class="hover:text-amber-700 transition">Gallery</a>
+                <a href="#location" class="hover:text-amber-700 transition">Find Us</a>
+                <a href="#appointment" class="hover:text-amber-700 transition">Book Therapy</a>
+            </nav>
+            <a href="https://wa.me/923030200101" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-full font-bold flex items-center gap-2 shadow-lg transition transform hover:scale-105 text-sm uppercase tracking-wider">
+                <i class="fab fa-whatsapp text-lg"></i> Live Chat
+            </a>
+        </div>
+    </header>
+
+    <section id="hero" class="relative bg-stone-950 text-white py-32 px-6 overflow-hidden">
+        <div class="absolute inset-0 opacity-25 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920&q=80');"></div>
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center relative z-10">
+            <div class="space-y-8 text-left">
+                <span class="bg-amber-500/10 text-amber-400 border border-amber-500/30 font-bold tracking-widest uppercase text-xs px-5 py-2 rounded-full inline-block">Premium Home & Spa Service</span>
+                <h1 class="text-4xl md:text-6xl font-serif font-black leading-tight tracking-tight">Dissolve Stress, Restore Your Harmony</h1>
+                <p class="text-stone-300 text-lg leading-relaxed">Indulge in high-end, certified relaxation therapies at any hour. Our expert therapists are available 24 hours a day, 7 days a week to bring relief directly to you.</p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#appointment" class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-xl font-bold shadow-xl transition transform hover:-translate-y-1">Book Appointment Now</a>
+                    <a href="#services" class="border border-stone-500 hover:border-white text-white px-8 py-4 rounded-xl font-bold transition">Explore Services</a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="w-full max-w-lg h-[450px] rounded-3xl overflow-hidden shadow-2xl border-4 border-amber-600/20 tilt-card relative">
+                    <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=800&q=80" alt="Luxury Spa Atmosphere" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-8">
+                        <div>
+                            <p class="text-amber-400 font-bold text-sm tracking-widest uppercase mb-1">Luxury Experience</p>
+                            <h3 class="text-white text-2xl font-serif font-bold">Relieve Mind & Body Muscle Tension</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <div class="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80" alt="Calming Spa Setup" class="w-full h-full object-cover">
+        </div>
+        <div class="space-y-6">
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-stone-900">Why Choose Our 24/7 Massage Service?</h2>
+            <p class="text-stone-600 leading-relaxed">Humara maqsad aapko bina kisi rukawat ke mukammal sakoon faraham karna hai. Hamare pas qualified, certified aur intehai tameezdar male/female therapists hain jo aapki thakan, jism ke dard, aur zehni tanaav ko door karne ke liye hamesha tayyar hain.</p>
+            <div class="grid grid-cols-2 gap-6 pt-4">
+                <div class="flex items-start gap-3">
+                    <i class="fas fa-check-circle text-emerald-500 text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-stone-900">100% Hygiene Checked</h4>
+                        <p class="text-xs text-stone-500">Saaf suthra aur behtareen mahool.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <i class="fas fa-check-circle text-emerald-500 text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-stone-900">Always Available</h4>
+                        <p class="text-xs text-stone-500">24 Ghante, 7 Din hazir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-stone-100 border-y border-stone-200 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-stone-900">Premium Therapy Treatments</h2>
+                <p class="text-stone-600">Aapki zaroorat ke mutabik har tarah ki customized therapies aur massage options.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-200 tilt-card flex flex-col">
+                    <div class="h-60 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&q=80" alt="Swedish Therapy Setup" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-stone-900">Full Body Swedish Massage</h3>
+                            <p class="text-stone-600 text-sm leading-relaxed mt-2">Dheeme aur lambe strokes ke sath khoon ki gardish ko behtar banane aur thakan mitane ke liye behtareen treatment.</p>
+                        </div>
+                        <span class="text-amber-700 font-bold text-sm tracking-wide block uppercase">⏱ 60 / 90 / 120 Minutes</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-200 tilt-card flex flex-col">
+                    <div class="h-60 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80" alt="Deep Tissue Healing Elements" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-stone-900">Deep Tissue Muscle Massage</h3>
+                            <p class="text-stone-600 text-sm leading-relaxed mt-2">Jo log muscular stiffness ya pathon ke purane dard se pareshan hain, unke liye gehri relief faraham karne wali therapy.</p>
+                        </div>
+                        <span class="text-amber-700 font-bold text-sm tracking-wide block uppercase">⏱ 60 / 90 Minutes</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-stone-200 tilt-card flex flex-col">
+                    <div class="h-60 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=600&q=80" alt="Aromatherapy Spa Towels" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-stone-900">Luxury Aromatherapy Spa</h3>
+                            <p class="text-stone-600 text-sm leading-relaxed mt-2">Khaas qisam ke qudrati aur khushbudar tel (essential oils) ke istemaal se dimaagh ko sukoon aur jism ko taazgi milti hai.</p>
+                        </div>
+                        <span class="text-amber-700 font-bold text-sm tracking-wide block uppercase">⏱ 60 / 90 Minutes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-stone-900 text-white py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-amber-400">Timings Schedule & Availability</h2>
+            <p class="text-stone-400">Hum bina kisi break ke saato din open hain taake aap jab chahein relaxation hasil kar sakein.</p>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
+                <div class="p-4 bg-stone-800 rounded-xl border border-stone-700"><span class="block font-bold text-stone-400 text-xs">Saturday</span><span class="text-emerald-400 font-bold text-sm">24 Hours</span></div>
+                <div class="p-4 bg-stone-800 rounded-xl border border-stone-700"><span class="block font-bold text-stone-400 text-xs">Sunday</span><span class="text-emerald-400 font-bold text-sm">24 Hours</span></div>
+                <div class="p-4 bg-stone-800 rounded-xl border border-stone-700"><span class="block font-bold text-stone-400 text-xs">Monday</span><span class="text-emerald-400 font-bold text-sm">24 Hours</span></div>
+                <div class="p-4 bg-stone-800 rounded-xl border border-stone-700"><span class="block font-bold text-stone-400 text-xs">Tuesday</span><span class="text-emerald-400 font-bold text-sm">24 Hours</span></div>
+                <div class="p-4 bg-stone-800 rounded-xl border border-stone-700"><span class="block font-bold text-stone-400 text-xs">Wednesday</span><span class="text-emerald-400 font-bold text-sm">24 Hours</span></div>
+                <div class="p-4 bg-stone-800 rounded-xl border border-stone-700"><span class="block font-bold text-stone-400 text-xs">Thursday</span><span class="text-emerald-400 font-bold text-sm">24 Hours</span></div>
+                <div class="p-4 bg-stone-800 rounded-xl border border-stone-700 grid-cols-span-2"><span class="block font-bold text-stone-400 text-xs">Friday</span><span class="text-emerald-400 font-bold text-sm">24 Hours</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-xl mx-auto mb-16">
+            <h2 class="text-3xl font-serif font-bold text-stone-900 mb-2">Our Therapy Visuals Gallery</h2>
+            <p class="text-stone-500 text-sm">Ek jhalak hamare calming aur behtareen therapeutic environment ki.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="h-64 bg-stone-200 rounded-2xl overflow-hidden shadow-sm hover:scale-105 transition duration-300">
+                <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover" alt="Spa Wellness Base">
+            </div>
+            <div class="h-64 bg-stone-200 rounded-2xl overflow-hidden shadow-sm hover:scale-105 transition duration-300">
+                <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover" alt="Luxury Body Salt & Scrubs">
+            </div>
+            <div class="h-64 bg-stone-200 rounded-2xl overflow-hidden shadow-sm hover:scale-105 transition duration-300">
+                <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover" alt="Calming Aromatherapy Therapy Elements">
+            </div>
+            <div class="h-64 bg-stone-200 rounded-2xl overflow-hidden shadow-sm hover:scale-105 transition duration-300">
+                <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover" alt="Elite Spa Towels Grid">
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="py-20 bg-stone-200 px-6 border-t border-stone-300">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-3 gap-12 items-center">
+            <div class="space-y-6 lg:col-span-1">
+                <div class="inline-flex w-12 h-12 bg-amber-700 text-white rounded-xl items-center justify-center text-xl shadow-lg">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <h2 class="text-3xl font-serif font-bold text-stone-900">Our Premium Outlet & Location</h2>
+                <p class="text-stone-700 leading-relaxed">Aap neeche diye gaye live map par hamari location dekh sakte hain ya direct directions button par click karke hamare paas ba-asani tashreef la sakte hain.</p>
+                <div class="space-y-3 pt-2">
+                    <p class="text-sm font-semibold"><i class="fas fa-phone text-amber-700 mr-2"></i> +92 303 0200101</p>
+                    <p class="text-sm font-semibold"><i class="fas fa-door-open text-emerald-600 mr-2"></i> Open 24 Ghante / 7 Din</p>
+                </div>
+                <a href="https://www.google.com/maps/dir/24.8840192,67.0466048/Massage+service+24%2F7,+Total+petrol+pump+gizri,+D.H.A.+Phase+4+katachi,+Karachi,+66054,+Pakistan/@24.8549765,67.0192118,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3eb33dc99d86e26f:0xb17c0b03602518cb!2m2!1d67.04767!2d24.8224966?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="bg-stone-900 hover:bg-stone-800 text-white px-6 py-3 rounded-xl font-bold inline-flex items-center gap-2 shadow-lg transition">
+                    <i class="fas fa-location-arrow"></i> Open Google Maps Direction
+                </a>
+            </div>
+            <div class="lg:col-span-2 h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white relative">
+                <iframe src="https://maps.google.com/maps?q=Karachi&t=&z=13&ie=UTF-8&iwloc=&output=embed" class="w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment" class="py-24 max-w-3xl mx-auto px-6">
+        <div class="bg-white p-8 md:p-12 rounded-3xl shadow-2xl border border-stone-200 relative">
+            <div class="text-center mb-10">
+                <div class="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600 text-3xl mx-auto mb-4 animate-soft-bounce">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <h2 class="text-3xl font-serif font-bold text-stone-900 mb-2">Instant WhatsApp Booking Form</h2>
+                <p class="text-stone-600">Form ko fill karke submit karein, aapka data automatic WhatsApp text ban kar hamare paas book hone ke liye aa jayega.</p>
+            </div>
+
+            <form onsubmit="sendToWhatsApp(event)" class="space-y-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-stone-700 uppercase mb-2 tracking-wide">Apka Naam (Full Name)</label>
+                        <input type="text" id="custName" required class="w-full px-4 py-3.5 border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 focus:outline-none transition bg-stone-50" placeholder="E.g. Ali Khan">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-stone-700 uppercase mb-2 tracking-wide">Phone Number / Contact</label>
+                        <input type="tel" id="custPhone" required class="w-full px-4 py-3.5 border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 focus:outline-none transition bg-stone-50" placeholder="E.g. 03030200101">
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs font-bold text-stone-700 uppercase mb-2 tracking-wide">Massage Service Select Karein</label>
+                        <select id="serviceType" class="w-full px-4 py-3.5 border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 focus:outline-none transition bg-stone-50 text-stone-700 font-medium">
+                            <option value="Full Body Swedish Massage">Full Body Swedish Massage</option>
+                            <option value="Deep Tissue Muscle Massage">Deep Tissue Muscle Massage</option>
+                            <option value="Luxury Aromatherapy Spa">Luxury Aromatherapy Spa</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-stone-700 uppercase mb-2 tracking-wide">Date & Time Kya Hogi?</label>
+                        <input type="datetime-local" id="bookTime" required class="w-full px-4 py-3.5 border border-stone-300 rounded-xl focus:ring-2 focus:ring-amber-500 focus:outline-none transition bg-stone-50 text-stone-600">
+                    </div>
+                </div>
+
+                <button type="submit" class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-black py-4 rounded-xl shadow-lg transition transform hover:-translate-y-0.5 flex items-center justify-center gap-3 uppercase tracking-wider text-sm">
+                    <i class="fab fa-whatsapp text-xl"></i> Book Via WhatsApp Screen
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <a href="https://wa.me/923030200101" target="_blank" class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl transition transform hover:scale-110 z-50 animate-bounce" title="Chat 24/7">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer class="bg-stone-950 text-stone-400 pt-16 pb-8 px-6 border-t border-stone-900">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 pb-12 border-b border-stone-800 text-sm">
+            <div class="space-y-4">
+                <h3 class="text-white text-lg font-serif font-bold tracking-wider">MASSAGE SERVICE 24/7</h3>
+                <p class="text-stone-500 leading-relaxed text-xs">Premium health and relaxation wellness management company offering premium personal body stress relief therapies any time, anywhere.</p>
+            </div>
+            <div class="space-y-3">
+                <h4 class="text-white font-bold uppercase text-xs tracking-wider">Important Links</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#about" class="hover:text-amber-500 transition">About Our Spas</a></li>
+                    <li><a href="#services" class="hover:text-amber-500 transition">Our Healing Methods</a></li>
+                    <li><a href="#location" class="hover:text-amber-500 transition">Location Page layout</a></li>
+                </ul>
+            </div>
+            <div class="space-y-3">
+                <h4 class="text-white font-bold uppercase text-xs tracking-wider">Contact & Location Helpline</h4>
+                <p class="text-xs"><i class="fas fa-phone text-amber-500 mr-2"></i> +92 303 0200101</p>
+                <p class="text-xs text-emerald-400 font-bold"><i class="fas fa-clock mr-2"></i> Open 24/7 (Always Open)</p>
+            </div>
+        </div>
+        <div class="text-center pt-8 text-xs text-stone-600">
+            <p>© 2026 Massage Service 24/7. Fully Optimized Multi-section Platform Layout.</p>
+        </div>
+    </footer>
+
+    <script>
+        function sendToWhatsApp(event) {
+            event.preventDefault(); // Stop normal form submit
+            
+            // Fetch form field inputs
+            const name = document.getElementById('custName').value;
+            const phone = document.getElementById('custPhone').value;
+            const service = document.getElementById('serviceType').value;
+            const time = document.getElementById('bookTime').value;
+            
+            // Your Target business WhatsApp Number
+            const targetWhatsappNumber = "923030200101"; 
+            
+            // Formulate WhatsApp Dynamic text content
+            const messageText = `Hello *Massage Service 24/7*, I want to book an appointment:%0A%0A` +
+                                `👤 *Name:* ${encodeURIComponent(name)}%0A` +
+                                `📞 *Phone:* ${encodeURIComponent(phone)}%0A` +
+                                `💆‍♂️ *Therapy:* ${encodeURIComponent(service)}%0A` +
+                                `📅 *Preferred Date/Time:* ${encodeURIComponent(time)}`;
+            
+            // Generate full WhatsApp Redirect Link API URL
+            const whatsappFullUrl = `https://wa.me/${targetWhatsappNumber}?text=${messageText}`;
+            
+            // Open user WhatsApp app window screen automatically
+            window.open(whatsappFullUrl, '_blank');
+        }
+    </script>
+
+</body>
+</html>
